@@ -1,0 +1,43 @@
+MASTER DEVELOPMENT PROMPT
+PROJECT: AI HUMAN - NEXT GENERATION PERSONAL AI ASSISTANT
+
+Act as a senior team: AI architect, full-stack developer, AI voice engineer, avatar/animation specialist, UI/UX designer, cybersecurity engineer, database architect, automation engineer.
+
+Mission: DESIGN, DEVELOP, TEST AND DELIVER a complete production-ready AI HUMAN ASSISTANT: a realistic, intelligent, multilingual, voice-first personal assistant with a human-like animated avatar (not a simple chatbot).
+
+1. VISION: User chooses Female or Male assistant. Realistic face, natural expressions, blinking, lip sync, head movement, smiling, natural voice, real-time speech. Not a cartoon or robot. Use real-time digital human technology; never pass a static image off as a live human.
+
+2. STACK: React + Vite, responsive CSS, Three.js where appropriate, WebRTC; Node.js + Express, secure REST, WebSocket; MySQL (history, profiles, preferences, memory, projects, file metadata); AI model with voice, text, tool calling, document understanding, coding; STT, TTS, VAD, interruption handling, configurable multilingual voices. Modular providers. Never hardcode API keys in frontend.
+
+3. AVATAR: Female/male selection; looks at camera; blinks; lip sync; smiles; expressions; head movement; reacts to user; listening/thinking states. Full-screen and compact floating modes; avatar settings, voice selection, speed, volume, mute. If an external avatar service is needed, build a provider layer and explain account/API setup.
+
+4. LIVE VOICE: Start/stop mic, continuous mode, detect speech start/end, natural voice replies, user can interrupt, never talk over user, live transcription, listening/thinking/speaking indicators, handle mic permission and connection failures. No send button needed in continuous mode.
+
+5. MULTILINGUAL: English, Amharic, Afaan Oromo first, plus other provider-supported languages. Auto-detect, reply in user's language, language switching, mixed-language, keep context, don't mistranslate names, Unicode fonts, interface language selector. Don't claim a language is supported until tested.
+
+6. MEMORY: Persistent, user-approved memory (language, voice, projects, preferences, goals, past conversations, decisions). Survives restarts. Searchable history, summaries, editable memory, delete conversations/memories, privacy controls. Never store passwords/secrets. Distinguish current conversation, long-term memory, retrieved documents, uncertain info. Never invent previous conversations.
+
+7. KNOWLEDGE: Programming, math, science, CS, business, tech, education, writing, translation, research, career, productivity, document analysis, general knowledge. Explain simply with examples and steps. Use authorized web search with sources for current info. Never pretend to know what it can't verify.
+
+8. LIVE BUILD MODE (most important): Help build real software (websites, management/hotel/HR/attendance/accounting systems, mobile/desktop/database/AI apps). Understand requirements, ask questions, plan, create folders/files, write and edit code, install dependencies, run dev servers, run tests, detect and fix errors, explain changes, show progress, show finished app. Workspace: file explorer, code editor, terminal output, build progress, errors, preview, project history. Never falsely claim code was run or a project finished.
+Security: no arbitrary commands without authorization; show commands before running; approval for destructive commands; restrict to approved directories; never expose env vars/secrets; don't run unknown downloaded scripts; stop/cancel controls; audit log.
+
+9. DOCUMENTS: Create DOCX, PDF, XLSX, PPTX, CSV, TXT, source files. Upload PDF, DOCX, XLSX, PPTX, TXT, images, code; analyze and answer questions; downloadable file interface.
+
+10. PERSONAL ASSISTANT: Daily planning, reminders, learning schedules, tasks, project tracking, notes, calendar, email (authorized), research, productivity. All integrations need explicit authorization.
+
+11. UI: Premium futuristic; dark/light themes; smooth transitions; careful glass surfaces; elegant typography; icons; responsive; animations. Left sidebar: New Conversation, History, My Projects, Live Build, Documents, Memory, Settings. Center: large avatar, messages, live transcription, waveform. Bottom: mic, text input, send, stop speaking, live toggle, file upload. Top: logo, assistant name, language selector, avatar selector, connection status. Beautiful first-time welcome screen.
+
+12. MYSQL: Normalized tables: users, conversations, messages, memories, user_preferences, projects, project_files, tool_executions, uploaded_files, reminders, audit_logs. Keys, foreign keys, indexes, timestamps, secure access, migrations, backup guidance, parameterized queries.
+
+13. SECURITY: Secure auth, password hashing, sessions, role-based authorization, rate limiting, input validation, upload validation, protected routes, secrets management, user data deletion, error handling. No API keys in browser. No recording mic audio without permission. Don't impersonate real people.
+
+14. PHASES: 1 architecture/folders/frontend/backend; 2 MySQL + auth; 3 conversational AI; 4 real-time voice; 5 realistic avatar; 6 multilingual; 7 persistent memory; 8 live software workspace; 9 documents + productivity; 10 security/integration testing/production prep.
+
+15. RULES: No fake demos, no dead buttons, no mock data as final, no skipping backend, no ignoring errors, inspect before replacing code, don't overwrite user files without confirmation, no secrets in frontend, no completion claims without testing, give complete files, keep organized.
+Before implementation: inspect environment, explain architecture, identify required API services, paid services, free alternatives, detailed plan.
+After: run frontend, backend, verify DB, test auth, voice, avatar, language switching, memory, live build; fix critical errors.
+
+16. FINAL RESULT: Working AI HUMAN ASSISTANT: realistic female/male AI, natural talk and voice, multilingual, answers almost any subject, continues conversations, persistent memory, document upload/analysis, builds software with AI in a live workspace, user controls file/command access, secure MySQL. Works on desktop, tablet, mobile.
+
+Start by inspecting the environment and creating the architecture. Then implement systematically. Do not stop after the landing page. Build the real application.
